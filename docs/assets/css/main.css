@@ -48,6 +48,19 @@
 		-webkit-text-size-adjust: none;
 	}
 
+	.icons > i {
+		font-size: 5em;
+		margin-top: 2em;
+	}
+
+	.skills-header {
+		/* padding: 1em 0em; */
+	}
+
+	.skills-header > h3 {
+		padding: 2em 0em;
+	}
+
 /* Box Model */
 
 	*, *:before, *:after {
@@ -1805,17 +1818,17 @@
 				background: #152E33;
 				overflow: hidden;
 			}
-			
+
 			.box.style1 .uncaskd {
 				display: flex;
 				align-items: center;
 			}
-			
+
 			.box.style1 .project-links {
 				display: flex;
 				justify-content: space-around;
 			}
-			
+
 			.box.style1 .umbrella {
 				display: flex;
 				flex-direction: row;
@@ -1919,11 +1932,11 @@
 			.box.style3 header {
 				text-align: center;
 			}
-			
+
 			.box.style3 contact-message {
 				max-width: 100%;
 			}
-			
+
 
 /* Icons */
 
@@ -2062,6 +2075,51 @@
 			#banner a:hover {
 				border-bottom-color: rgba(255, 255, 255, 0);
 			}
+
+/* Skills */
+
+#skills {
+	position: relative;
+	color: #fff;
+	text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
+	text-align: center;
+	background: #35b88f url("images/overlay.svg") bottom center no-repeat;
+	padding: 5em 0 5em 0;
+	margin: 0;
+	background-size: 125% auto;
+}
+
+	#skills .button {
+		color: #35b882;
+		text-shadow: 0 0 0.5px rgba(53, 184, 130, 0.25);
+	}
+
+	#skills header {
+		margin: 0 0 2em 0;
+	}
+
+		#skills header h2 {
+			font-weight: 400;
+			font-size: 1.75em;
+			letter-spacing: 8px;
+		}
+
+	#skills p {
+		margin: 0;
+	}
+
+	#skills footer {
+		margin: 2em 0 0 0;
+	}
+
+	#skills a {
+		color: inherit;
+		border-bottom-color: rgba(255, 255, 255, 0.5);
+	}
+
+		#skills a:hover {
+			border-bottom-color: rgba(255, 255, 255, 0);
+		}
 
 /* Footer */
 
